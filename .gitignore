@@ -1,0 +1,23 @@
+# Java build output
+target/
+build/
+*.class
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
