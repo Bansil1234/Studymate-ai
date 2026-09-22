@@ -9,10 +9,14 @@ This repository currently contains only the initial project structure. Applicati
 ```text
 project/
 ├── frontend/
+│   ├── index.html
+│   ├── login.html
+│   ├── register.html
+│   ├── dashboard.html
 │   ├── css/
-│   │   └── .gitkeep
+│   │   └── styles.css
 │   └── js/
-│       └── .gitkeep
+│       └── app.js
 ├── backend/
 │   └── src/
 │       ├── main/
@@ -36,8 +40,14 @@ project/
 ## Directory and File Purposes
 
 - `frontend/`: Contains the browser-side application.
+- `frontend/index.html`: Landing page that introduces StudyMate AI.
+- `frontend/login.html`: Static login form for the frontend prototype.
+- `frontend/register.html`: Static registration form for the frontend prototype.
+- `frontend/dashboard.html`: Static preview of the student dashboard.
 - `frontend/css/`: Will contain CSS stylesheets for the user interface.
+- `frontend/css/styles.css`: Shared responsive styles for all frontend pages.
 - `frontend/js/`: Will contain vanilla JavaScript for browser behavior and API communication.
+- `frontend/js/app.js`: Provides the mobile navigation toggle and demo form messages. It does not connect to a backend.
 - `backend/`: Contains the Java Spring Boot server application.
 - `backend/src/main/java/com/studymate/`: Will contain Java source code, such as controllers and services, when backend development begins.
 - `backend/src/main/resources/`: Will contain backend resources and configuration files, such as application configuration, when needed.
@@ -58,4 +68,4 @@ No frameworks or libraries have been added yet. This keeps the starting point sm
 
 ## Current Status
 
-Initial folder structure only. No application features have been implemented.
+Initial static frontend prototype completed. The pages have no backend, database, authentication, or AI API integration yet.

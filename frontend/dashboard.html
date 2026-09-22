@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A preview of the StudyMate AI student dashboard.">
+  <title>Dashboard preview | StudyMate AI</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body class="dashboard-page">
+  <header class="site-header"><nav class="nav container" aria-label="Main navigation"><a class="brand" href="index.html" aria-label="StudyMate AI home"><span class="brand-mark">S</span><span>StudyMate <strong>AI</strong></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="dashboard-menu"><span class="sr-only">Open navigation menu</span>☰</button><div class="nav-links" id="dashboard-menu"><a href="dashboard.html" aria-current="page">Dashboard</a><a href="#subjects">Subjects</a><a href="#tasks">My plan</a><a class="button button-small button-outline" href="login.html">Log out</a></div></nav></header>
+  <main class="dashboard-main container">
+    <section class="dashboard-welcome"><div><p class="eyebrow">Tuesday, 22 September 2026</p><h1>Good afternoon, Alex.</h1><p class="muted">Here is a quick look at your study space.</p></div><a class="button" href="#tasks">View today’s plan <span aria-hidden="true">→</span></a></section>
+    <section class="stat-grid" aria-label="Study summary"><article class="stat-card"><span class="stat-icon icon-coral">◒</span><div><strong>68%</strong><span>Weekly progress</span></div><small>+12% this week</small></article><article class="stat-card"><span class="stat-icon icon-yellow">✦</span><div><strong>82%</strong><span>Quiz average</span></div><small>Across 4 quizzes</small></article><article class="stat-card"><span class="stat-icon icon-blue">▣</span><div><strong>12</strong><span>Cards reviewed</span></div><small>Keep it going</small></article></section>
+    <div class="dashboard-grid">
+      <section class="dashboard-panel progress-panel" aria-labelledby="progress-title"><div class="panel-heading"><div><p class="eyebrow">Your subjects</p><h2 id="progress-title">Progress overview</h2></div><a href="#subjects" class="small-link">View all</a></div><div class="subject-progress"><div class="subject-row"><div class="subject-name"><span class="subject-dot dot-coral"></span><span><strong>Web Development</strong><small>4 notes · 2 quizzes</small></span></div><strong>78%</strong><div class="progress-bar"><span style="width: 78%"></span></div></div><div class="subject-row"><div class="subject-name"><span class="subject-dot dot-blue"></span><span><strong>Database Systems</strong><small>3 notes · 1 quiz</small></span></div><strong>62%</strong><div class="progress-bar blue-bar"><span style="width: 62%"></span></div></div><div class="subject-row"><div class="subject-name"><span class="subject-dot dot-yellow"></span><span><strong>Computer Networks</strong><small>2 notes · 1 quiz</small></span></div><strong>48%</strong><div class="progress-bar yellow-bar"><span style="width: 48%"></span></div></div></div></section>
+      <section class="dashboard-panel tasks-panel" id="tasks" aria-labelledby="tasks-title"><div class="panel-heading"><div><p class="eyebrow">Stay focused</p><h2 id="tasks-title">Today’s plan</h2></div><span class="pill pill-light">2 tasks</span></div><ul class="task-list"><li><span class="task-check" aria-hidden="true">✓</span><span><strong>Review SQL joins</strong><small>Database Systems · 25 min</small></span></li><li><span class="task-check task-check-empty" aria-hidden="true"></span><span><strong>Complete network quiz</strong><small>Computer Networks · 30 min</small></span></li><li><span class="task-check task-check-empty" aria-hidden="true"></span><span><strong>Read chapter 4 notes</strong><small>Web Development · 20 min</small></span></li></ul><a href="#" class="add-task">+ Add a study task</a></section>
+    </div>
+    <section class="dashboard-panel recent-panel" id="subjects" aria-labelledby="recent-title"><div class="panel-heading"><div><p class="eyebrow">Keep learning</p><h2 id="recent-title">Recent activity</h2></div><a href="#" class="small-link">See history</a></div><div class="activity-list"><div class="activity-item"><span class="activity-icon icon-coral">✎</span><span><strong>Note updated</strong><small>“Responsive layouts” · Web Development</small></span><time datetime="2026-09-22">Just now</time></div><div class="activity-item"><span class="activity-icon icon-yellow">✦</span><span><strong>Quiz completed</strong><small>SQL Basics · Scored 8 out of 10</small></span><time datetime="2026-09-21">Yesterday</time></div></div></section>
+  </main>
+</body>
+</html>
